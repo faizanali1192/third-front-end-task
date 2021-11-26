@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+.header {
+    background-color: #012B71;
+    min-height: 702px;
+}
+
+nav {
+    background-color: #012B71 !important;
+
+}
+
+.header__btn {
+    background-color: #FAD657;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.navbar-nav a {
+    color: white !important;
+    padding: 0 20px !important;
+
+}
+
+.hero {
+    margin-top: 120px;
+}
+
+.hero__heading h1 {
+    font-size: 46px;
+    color: white;
+    font-weight: 700;
+    line-height: 71px;
+    margin-bottom: 25px;
+}
+
+.hero__heading p {
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.brands {
+    margin: 100px 0px;
+}
+
+.clients {
+    padding: 20px 0;
+    background: white;
+}
+
+.clients .client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 20px;
+    height: 120px;
+}
+
+.clients .client-logo img {
+    width: 100%;
+    object-fit: contain;
+    height: 100px;
+}
+
+.clients .client-logo:hover img {
+    transform: scale(1.2);
+}
+
+.clients img {
+    transition: all 0.4s ease-in-out;
+}
+
+.services {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    /* text-align: center; */
+}
+
+.line {
+    border: 2px solid black;
+    width:13%;
+    border-radius: 5px;
+}
+.services__cards{
+    padding: 60px;
+}
+.services__cards p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.our__work-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work__line{
+    width:10%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.our__work{
+    margin-top: 120px;
+}
+.our__work h5{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.our__work p{
+    font-size: 22px;
+font-weight: 400;
+}
+.work__img-wrapper{
+    margin-top: 100px;
+
+}
+.work__img{
+    border-radius: 10px;
+    border:2px solid black;
+    background-image: url(./images/work.png);
+    width:560px;
+    height:323px;
+}
